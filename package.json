@@ -1,0 +1,38 @@
+{
+  "name": "qaller",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start_android": "react-native run-android",
+    "fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-native": "0.59.3",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-meteor": "^1.4.0",
+    "react-navigation": "^3.6.1",
+    "react-redux": "^7.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "acorn": "^6.1.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-universe": "^1.0.7",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.5.0",
+    "eslint-plugin-react-native": "^3.6.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "prettier": "^1.16.4",
+    "react-test-renderer": "16.8.3",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
